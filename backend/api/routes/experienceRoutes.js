@@ -10,7 +10,7 @@ const authMiddleware = require("../middleware/authMiddleware");
 const router = express.Router();
 
 router.get("/", getExperiences);
-router.post("/", authMiddleware, addExperience);
+router.post("/", addExperience);
 router.put("/:id", authMiddleware, updateExperience);
 router.delete("/:id", authMiddleware, deleteExperience);
 

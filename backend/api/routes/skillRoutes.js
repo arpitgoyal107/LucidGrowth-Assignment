@@ -10,7 +10,7 @@ const authMiddleware = require("../middleware/authMiddleware");
 const router = express.Router();
 
 router.get("/", getSkills);
-router.post("/", authMiddleware, addSkill);
+router.post("/", addSkill);
 router.put("/:id", authMiddleware, updateSkill);
 router.delete("/:id", authMiddleware, deleteSkill);
 
