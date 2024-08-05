@@ -7,6 +7,14 @@ _Admin Credentials:_
 - _email:_ arpitgoyal126116@gmail.com
 - _Password:_ 123456789
 
+## Backend environment Dependencies
+add .env
+PORT=5000
+DB_USER=
+DB_PASSWORD=
+JWT_SECRET=
+
+
 ## Features
 
 - User registration and login
